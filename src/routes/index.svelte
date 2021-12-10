@@ -24,7 +24,7 @@
   <title>Amy Blog</title>
 </svelte:head>
 
-<p>stopped 38:36mins in</p>
+<p>stopped 1:04:40 mins in</p>
 
 <h1 class="text-4xl mb-10 font-extrabold">Amy's blog!</h1>
 
