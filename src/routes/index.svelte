@@ -17,16 +17,27 @@
 <!--<pre>{JSON.stringify(posts, null, 2)}</pre> shows how you get the exact same thing as if you went to the posts.json -->
 <script>
   export let posts
+  import { onMount } from 'svelte'
+  import { myFunction } from '../van-js/alert.js'
+
+  onMount(()=>{
+    myFunction();
+  }
+  )
+
+ 
 </script>
+
 
 
 <svelte:head>
   <title>Amy Blog</title>
 </svelte:head>
 
+
 <p>stopped 1:04:40 mins in</p>
 
-<h1 class="text-4xl mb-10 font-extrabold">Amy's blog!</h1>
+<h1 class="text-4xl mb-10 font-extrabold">It Works For Me!</h1>
 
 {#each posts as {title, slug, excerpt, coverImage, tags}}
 <div class="card text-center shadow-2xl mb-20">

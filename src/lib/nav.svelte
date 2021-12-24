@@ -8,7 +8,7 @@
     class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box"
   >
     <div class="px-2 mx-2 navbar-start">
-      <span class="text-lg font-bold"> Sparkles Blog </span>
+      <span class="text-lg font-bold"> Hello There! </span>
     </div>
     <div class="px-2 mx-2 navbar-center">
       <div class="flex items-stretch">
