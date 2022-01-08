@@ -10,10 +10,11 @@
       }
     }
     // I added below from the docs
+    /*
     return {
       status: res.status,
       error: new Error(`Could not load ${pages}`),
-    }
+    } */
   }
 </script>
 
