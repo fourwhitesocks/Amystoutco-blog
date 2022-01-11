@@ -1,3 +1,6 @@
+<!--First, we tell Svelte that we need this JS to run first hand when we call the route, therefore the context="module" part. Then, we create an async function load which gets the page from our requests - this holds the url params which we assign to a constant in the next line and use it to fetch the data from our API.
+
+Once we've awaited the result we need to transform the resulting promise to json with .json() and return it as props for our Svelte component which then shows the post name in its headline. https://dev.to/sschuchlenz/how-the-page-load-function-works-in-svelte-sveltekit-328h -->
 <script context="module">
   export async function load({ params, fetch }) {
     const { slug } = params
