@@ -15,12 +15,6 @@
 <!--<pre>{JSON.stringify(posts, null, 2)}</pre> shows how you get the exact same thing as if you went to the posts.json -->
 <script>
   export let posts
-  import { onMount } from 'svelte'
-  import { myFunction } from '../van-js/alert.js'
-
-  onMount(() => {
-    myFunction()
-  })
 </script>
 
 <!--for the json stringify test see 29:31 mins in!!-->
