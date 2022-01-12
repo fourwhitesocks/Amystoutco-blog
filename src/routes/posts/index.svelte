@@ -1,5 +1,5 @@
 <script context="module">
-  export const load = async ({ fetch }) => {
+  export async function load({ fetch }) {
     //res is response and it will await the response and then return the props which are the posts
     const res = await fetch('/posts.json')
 
