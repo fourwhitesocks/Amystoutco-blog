@@ -22,11 +22,15 @@
     author: { name, authorTitle, picture },
     content: { html },
     coverImage,
+    seo: { keywords, description },
   } = post
 </script>
 
 <svelte:head>
   <title>Amy Blog</title>
+  <!-- trying these below -->
+  <meta name="description" content={post.seo.description} />
+  <meta name="keywords" content={post.seo.keywords} />
 </svelte:head>
 
 <!--  <pre>{JSON.stringify(post, null, 2)}</pre>-->

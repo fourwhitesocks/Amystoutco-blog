@@ -26,6 +26,10 @@ export const get = async (req) => {
               coverImage {
                 url
               }
+              seo {
+                keywords
+                description
+              }
           }
           }
         `
